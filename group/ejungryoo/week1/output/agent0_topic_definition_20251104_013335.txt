@@ -1,0 +1,39 @@
+User Input:
+TMS를 SPC(Superior parietal cortex)에 적용하여 distractor의 유무에 따른 working memory 수행 변화를 측정함으로써 supra-modal memory retension과 SPC 활동의 인과관계 규명
+
+=================================================================
+Structured Topic Information:
+=================================================================
+
+Certainly! Here is the structured information based on the user's research topic description:
+
+1. **Main Topic**: 
+   Investigating the causal relationship between supra-modal memory retention and activity in the Superior Parietal Cortex (SPC) by applying Transcranial Magnetic Stimulation (TMS) and measuring changes in working memory performance in the presence or absence of distractors.
+
+2. **Research Field**: 
+   Neuroscience
+
+3. **Specific Focus**: 
+   Cognitive Neuroscience, with an emphasis on working memory and brain stimulation techniques.
+
+4. **Methods**: 
+   - Transcranial Magnetic Stimulation (TMS)
+   - Behavioral experiments measuring working memory performance
+
+5. **Keywords**: 
+   - Transcranial Magnetic Stimulation
+   - Superior Parietal Cortex
+   - Working Memory
+   - Distractors
+   - Supra-modal Memory
+   - Cognitive Neuroscience
+   - Brain Stimulation
+
+6. **PubMed Query**: 
+   1. "Transcranial Magnetic Stimulation AND Superior Parietal Cortex AND Working Memory AND Distractors"
+   2. "Working Memory AND Supra-modal Memory AND Superior Parietal Cortex"
+   3. "Transcranial Magnetic Stimulation AND Cognitive Neuroscience AND Distractors AND Brain Stimulation"
+   4. "Brain Stimulation AND Superior Parietal Cortex AND Working Memory"
+   5. "TMS AND Supra-modal Memory AND Superior Parietal Cortex AND Distractors"
+
+This structured information is designed to help facilitate a comprehensive literature search in PubMed and related academic databases.
