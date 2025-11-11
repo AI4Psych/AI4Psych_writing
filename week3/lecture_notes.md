@@ -1,6 +1,4 @@
-# 3주차 강의노트: AI 활용Ⅱ – 체계적 Research Gap 발견 및 검증
-
-> **전제**: 윤경생 박사님 강의에서 RAG (Retrieval-Augmented Generation) 기법을 이미 학습했다는 전제하에 진행합니다. 본 강의에서는 RAG **기술**이 아닌, "어떤 Gap이 탑티어 저널에 적합한가?" 그리고 "어떻게 체계적으로 Gap을 발견하고 검증하는가?"에 집중합니다.
+# 3주차 강의노트: Introduction 잘쓰기
 
 ## 학습 목표
 - **Incremental vs Conceptual gap** 구분 및 탑티어 기준 파악
@@ -13,34 +11,346 @@
 
 ## 📚 수업 전 준비 (과제)
 
-**필수 과제**: Literature review 초안 + Gap statement 작성
-- Introduction 섹션의 문헌 리뷰 부분 (800-1000 words)
-- 자신의 연구 gap을 1-2 단락으로 명확히 서술
-- Week 2에서 작성한 초록의 gap을 확장하는 형태도 가능
-- 완벽하지 않아도 됨 - 수업에서 AI로 개선하고 검증할 예정
+**필수 과제**: 
+1. **Introduction 초안 작성** (Phase 3 리뷰 세션 준비)
+   - Introduction 섹션 전체 초안 작성 (800-1000 words)
+   - Gap-driven 4단계 구조 적용 시도
+   - 완벽하지 않아도 됨 - 수업에서 리뷰 받고 개선할 예정
+   - **수업 시간에 발표할 준비** (2분 발표)
+   - **📝 작성 템플릿**: [Introduction 작성 템플릿 (Notion)](https://www.notion.so/2a841454561d8084a7c3cf21eefc6e07) - 각자의 Introduction을 작성할 수 있는 구조화된 템플릿
+
+2. **Literature review 초안 + Gap statement 작성**
+   - Introduction 섹션의 문헌 리뷰 부분
+   - 자신의 연구 gap을 1-2 단락으로 명확히 서술
+   - Week 2에서 작성한 초록의 gap을 확장하는 형태도 가능
+
+3. **탑티어 예제 사전 읽기** (Phase 0 준비)
+   - `examples_introduction_top_tier_patterns.md` 읽기
+   - 자신의 연구와 유사한 Gap 패턴 1개 선택 (선택 이유 메모)
+
+4. **Critical Review 분석 준비** (Phase 1 Activity 2 준비)
+   - 자신의 연구와 관련된 주요 논문 3편 선정
+   - 각 논문의 초록 또는 Introduction 읽기
 
 ---
 
-## 🎓 90분 Workshop 구조
+## 🎓 2시간 Workshop 구조
 
-**강의 15-20분** + **Workshop/Discussion 70-75분**
+**강의 15-20분** + **Workshop/Discussion 100-105분**
 
-학생들은 자신의 literature review와 gap statement를 가지고 와서:
+학생들은 자신의 Introduction 초안을 가지고 와서:
 - AI로 gap의 질을 평가 (Incremental vs Conceptual)
 - 체계적 gap validation 워크플로우 실행
 - False gap 걸러내기
 - Gap-driven 구조로 재구성
-- 동료 피드백 및 개선
+- **전체 그룹 Introduction 리뷰 세션** (각자 발표 및 피드백)
 
 ---
 
-## 📊 90분 In-Class Workshop 진행
+## 📊 2시간 In-Class Workshop 진행
 
 ### 짧은 강의 (15-20분)
 
 **핵심 개념 리뷰:**
 
+## 0. Introduction의 전체 구조: Nature Editor 관점
+
+### 0.0 Introduction이 Editorial Process에서 하는 역할
+
+**Nature Editor 관점에서 Introduction의 전략적 중요성**:
+
+Nature에 논문을 제출하면, Editor는 다음과 같은 순서로 논문을 평가합니다:
+
+1. **초기 스크리닝 (Initial Screening) - 5-10분**
+   - **Introduction의 첫 2-3 문단**을 읽으며 다음을 판단:
+     - 이 논문이 Nature의 scope에 맞는가?
+     - Novelty가 명확한가? (첫 문단에서 즉시 판단)
+     - 논리적 흐름이 명확한가? (깔때기 구조가 보이는가?)
+   - **결정**: Desk rejection vs Peer review로 보낼지
+   - **통계**: Nature의 약 60-70% 논문이 이 단계에서 거부됨
+
+2. **Peer Review 선정 (Reviewer Selection) - Introduction 기반**
+   - Editor는 Introduction을 읽고:
+     - 어떤 분야의 전문가가 필요한가? (Introduction의 인용 논문 기반)
+     - 어떤 질문을 다루는가? (Critical Gap 기반)
+     - 어떤 방법을 사용하는가? (Research Opportunity 기반)
+   - **잘 쓰인 Introduction**: 적절한 리뷰어를 쉽게 찾을 수 있음
+   - **나쁘게 쓰인 Introduction**: 리뷰어 선정이 어렵고, 부적절한 리뷰어가 배정될 수 있음
+
+3. **Editorial Decision (Accept/Revise/Reject) - Introduction의 영향**
+   - **Accept 결정**: Introduction이 명확하게 연구의 중요성과 novelty를 보여줄 때
+   - **Major Revision**: Introduction의 gap이 불명확하거나, significance가 부족할 때
+   - **Reject**: Introduction에서 논리적 결함이나 incremental gap이 드러날 때
+
+4. **Cover Letter 작성 - Introduction과의 일관성**
+   - Editor는 Cover Letter와 Introduction을 비교합니다
+   - Cover Letter에서 강조한 점이 Introduction에서도 명확히 드러나야 함
+   - 불일치 시 신뢰도 하락
+
+**잘 만들어진 Introduction의 전략적 가치**:
+
+- ✅ **Desk rejection 방지**: 첫 2-3 문단에서 novelty와 significance를 명확히 제시
+- ✅ **적절한 리뷰어 배정**: Critical Gap과 Research Opportunity가 명확하면 전문가 선정 용이
+- ✅ **긍정적 첫 인상**: 논리적 흐름이 명확하면 연구의 질에 대한 신뢰도 상승
+- ✅ **Revision 요청 감소**: Introduction에서 이미 모든 논리적 연결이 명확하면, 리뷰어의 질문 감소
+- ✅ **Accept 확률 증가**: Introduction이 강하면, Methods/Results에 작은 문제가 있어도 "이 연구는 중요하다"는 인식 유지
+
+**나쁘게 쓰인 Introduction의 위험**:
+
+- ❌ **Desk rejection**: 첫 문단에서 novelty가 불명확하면 즉시 거부
+- ❌ **부적절한 리뷰어**: Gap이 모호하면 다른 분야 전문가가 배정되어 부적절한 비판
+- ❌ **Major Revision 요청**: Introduction의 논리적 결함이 Methods/Results까지 의심받게 만듦
+- ❌ **Rejection**: Incremental gap으로 판단되면, 아무리 좋은 데이터여도 거부
+
+**Nature Editor의 실제 평가 프로세스**:
+
+```
+[Editor가 논문을 받음]
+    ↓
+[Introduction 첫 2-3 문단 읽기] ← 여기서 60-70% 거부
+    ↓
+[깔때기 구조 확인: 우리가 모르는 것 → 중요한 질문 → 연구 질문 → 어프로치]
+    ↓
+[Novelty 판단: Conceptual/Mechanistic/Translational/Paradox?]
+    ↓
+[Gap-driven 4단계 확인: Established Knowledge → Emerging Challenges → Critical Gap → Research Opportunity]
+    ↓
+[리뷰어 선정 (Introduction의 인용 논문 기반)]
+    ↓
+[Peer Review 진행]
+    ↓
+[Editorial Decision]
+```
+
+**핵심 메시지**: Introduction은 단순히 배경 지식을 설명하는 것이 아니라, **Editor와 Reviewer를 설득하는 전략적 문서**입니다. 잘 쓰인 Introduction은 논문의 성공을 결정합니다.
+
+### 0.1 깔때기 모델: Nature Editor가 보는 Introduction
+
+**Nature Editor의 첫 인상**: Introduction의 첫 2-3 문단에서 논문의 novelty를 판단합니다. 논리적 흐름이 명확하지 않으면, 연구의 질을 의심하기 시작합니다.
+
+**깔때기 구조 (Funnel Structure)**: 모든 탑티어 Introduction은 넓은 지식 공백에서 시작하여 구체적 연구 질문과 해결 방법으로 좁혀가는 구조를 따릅니다.
+
+```
+1. 우리가 모르는 것 (What we don't know)
+   → 넓은 지식 공백, 분야 전체의 미해결 문제
+
+2. 중요한 질문 (Important question)
+   → 그 공백이 왜 중요한가? 왜 지금 해결해야 하는가?
+
+3. 나의 연구 질문 (My research question)
+   → 구체적이고 연구 가능한 질문으로 좁혀감
+
+4. 우리의 어프로치 (Our approach)
+   → 해결 방법, 본 연구의 기여
+```
+
+**Nature Editor 관점에서의 평가 기준**:
+
+1. **Editorial decision-making**: 
+   - 첫 2-3 문단에서 논문의 novelty를 판단
+   - "우리가 모르는 것"이 진짜 gap인지, incremental인지 즉시 판단
+   - 논리적 흐름이 명확하지 않으면 rejection 가능성 높음
+
+2. **Research integrity**:
+   - 깔때기 구조가 명확하지 않으면 논리적 결함으로 판단
+   - 각 단계 간 연결이 자연스럽지 않으면 연구 설계에 문제가 있다고 의심
+
+3. **Novelty**:
+   - "우리가 모르는 것"이 Conceptual/Mechanistic/Translational/Paradox gap인지 판단
+   - Incremental gap이면 즉시 rejection
+
+4. **Transparency**:
+   - 각 단계가 명확히 구분되어야 함
+   - 독자가 어느 단계에 있는지 명확히 알 수 있어야 함
+
+### 0.2 Gap-driven 4단계와의 매핑
+
+**깔때기 구조와 Gap-driven 4단계는 서로 다른 레벨에서 작동합니다**:
+
+- **깔때기 구조**: 전체 Introduction의 논리적 흐름 (macro structure)
+- **Gap-driven 4단계**: 문헌 리뷰 부분의 상세 구조 (micro structure)
+
+**매핑 관계**:
+
+```
+깔때기 구조 (전체 Introduction 흐름)
+    ↓
+Gap-driven 4단계 (문헌 리뷰 부분의 상세 구조)
+    ↓
+구체적 문장 작성
+```
+
+**단계별 매핑**:
+
+1. **우리가 모르는 것** ↔ **Critical Gap (핵심 공백)**
+   - 넓은 지식 공백을 Critical Gap으로 구체화
+   - "우리가 모르는 것"이 Critical Gap의 핵심
+
+2. **중요한 질문** ↔ **Emerging Challenges → Critical Gap**
+   - Emerging Challenges가 "왜 중요한가"를 설명하고 Critical Gap으로 연결
+   - "중요한 질문"은 Emerging Challenges에서 도출됨
+
+3. **나의 연구 질문** ↔ **Critical Gap의 구체화**
+   - Critical Gap을 연구 가능한 구체적 질문으로 변환
+   - Research Opportunity의 전제가 됨
+
+4. **우리의 어프로치** ↔ **Research Opportunity**
+   - Research Opportunity가 해결 방법을 제시
+   - "우리의 어프로치"는 Research Opportunity의 구체화
+
+**통합 모델**:
+
+```
+[깔때기 구조]
+우리가 모르는 것
+    ↓
+중요한 질문
+    ↓
+나의 연구 질문
+    ↓
+우리의 어프로치
+
+[Gap-driven 4단계 - 문헌 리뷰 부분]
+Established Knowledge
+    ↓
+Emerging Challenges
+    ↓
+Critical Gap (← "우리가 모르는 것"과 연결)
+    ↓
+Research Opportunity (← "우리의 어프로치"와 연결)
+```
+
+### 0.3 실제 예제: 깔때기 구조 분석
+
+**예제**: PNAS (2022) - "Why are people antiscience, and what can we do about it?"
+
+#### 깔때기 구조 분석:
+
+**1. 우리가 모르는 것 (What we don't know)**
+> From refusing to get vaccinated against COVID-19 to ignoring worsening climate change, rejection of scientific information is costing lives now and will continue to do so in the future. However, despite the existence of various models explaining antiscience attitudes (attitude roots, jiu jitsu models), the classic perspective on attitudes and persuasion has been largely ignored despite its substantive relevance.
+
+**분석**: 넓은 지식 공백 - antiscience 현상은 존재하지만, 기존 모델들이 classic perspective를 무시하고 있음
+
+**2. 중요한 질문 (Important question)**
+> Why are people antiscience, and what can we do about it? This question is critical because antiscience attitudes have real-world consequences: they cost lives, undermine public health, and threaten scientific progress.
+
+**분석**: 왜 중요한가? - 실제 생명과 직결되는 문제, 공중보건과 과학 발전에 위협
+
+**3. 나의 연구 질문 (My research question)**
+> To organize these processes, we offer an inclusive framework that specifies four core bases of antiscience attitudes. We investigate: (1) What are the four core bases of antiscience attitudes? (2) How do these bases interact? (3) What counteractive strategies are most effective for each base?
+
+**분석**: 구체적 연구 질문 - 4가지 core bases를 통한 통합 프레임워크 제시
+
+**4. 우리의 어프로치 (Our approach)**
+> We propose a framework that integrates classic attitude and persuasion theory with existing antiscience models, providing both theoretical understanding and practical intervention strategies.
+
+**분석**: 해결 방법 - classic perspective와 기존 모델 통합, 이론적 이해와 실용적 개입 전략 제공
+
+#### Gap-driven 4단계와의 연결:
+
+- **Established Knowledge**: antiscience 현상의 존재, 기존 모델들 (attitude roots, jiu jitsu models)
+- **Emerging Challenges**: classic perspective가 "largely ignored despite its substantive relevance"
+- **Critical Gap**: 기존 모델들과 classic perspective 사이의 연결 부재 (← "우리가 모르는 것")
+- **Research Opportunity**: 4가지 bases를 통한 통합 프레임워크 제시 (← "우리의 어프로치")
+
+### 0.4 AI 활용: 깔때기 구조 평가
+
+#### 프롬프트 레시피 1: 깔때기 구조 분석
+
+```
+다음 Introduction을 깔때기 구조로 분석해줘:
+
+[Introduction 텍스트]
+
+다음을 확인해주세요:
+
+1. 우리가 모르는 것 (What we don't know)
+   - 넓은 지식 공백이 명확히 제시되는가?
+   - Critical Gap과 연결되는가?
+
+2. 중요한 질문 (Important question)
+   - 그 공백이 왜 중요한가가 설명되는가?
+   - Emerging Challenges와 연결되는가?
+
+3. 나의 연구 질문 (My research question)
+   - 구체적이고 연구 가능한 질문으로 좁혀지는가?
+   - Critical Gap의 구체화인가?
+
+4. 우리의 어프로치 (Our approach)
+   - 해결 방법이 제시되는가?
+   - Research Opportunity와 연결되는가?
+
+각 단계가 명확히 구분되어 있는지, 논리적 흐름이 자연스러운지 평가해주세요.
+```
+
+#### 프롬프트 레시피 2: 깔때기 구조와 Gap-driven 4단계 통합 평가
+
+```
+다음 Introduction을 깔때기 구조와 Gap-driven 4단계 관점에서 평가해줘:
+
+[Introduction 텍스트]
+
+평가 기준:
+
+1. 깔때기 구조 (전체 흐름)
+   - 우리가 모르는 것 → 중요한 질문 → 나의 연구 질문 → 우리의 어프로치
+   - 각 단계가 명확히 구분되는가?
+   - 논리적 흐름이 자연스러운가?
+
+2. Gap-driven 4단계 (문헌 리뷰 부분)
+   - Established Knowledge → Emerging Challenges → Critical Gap → Research Opportunity
+   - 각 단계가 명확히 제시되는가?
+
+3. 두 구조의 연결
+   - "우리가 모르는 것"이 Critical Gap과 연결되는가?
+   - "중요한 질문"이 Emerging Challenges에서 도출되는가?
+   - "나의 연구 질문"이 Critical Gap의 구체화인가?
+   - "우리의 어프로치"가 Research Opportunity와 연결되는가?
+
+4. Nature Editor 관점 평가
+   - 첫 2-3 문단에서 novelty가 명확한가?
+   - 논리적 흐름이 명확한가?
+   - 진짜 gap인가, incremental gap인가?
+   - 각 단계가 명확히 구분되는가?
+
+개선 제안을 구체적으로 제시해주세요.
+```
+
+#### 프롬프트 레시피 3: 깔때기 구조로 재구성
+
+```
+다음 Introduction을 깔때기 구조로 재구성해줘:
+
+[현재 Introduction]
+
+재구성 시:
+
+1. 우리가 모르는 것 (What we don't know)
+   - 넓은 지식 공백을 명확히 제시
+   - Critical Gap과 연결
+
+2. 중요한 질문 (Important question)
+   - 그 공백이 왜 중요한가 설명
+   - Emerging Challenges에서 도출
+
+3. 나의 연구 질문 (My research question)
+   - 구체적이고 연구 가능한 질문으로 좁혀감
+   - Critical Gap의 구체화
+
+4. 우리의 어프로치 (Our approach)
+   - 해결 방법 제시
+   - Research Opportunity와 연결
+
+각 단계가 명확히 구분되고, 논리적 흐름이 자연스럽도록 재구성해주세요.
+```
+
+---
+
 ## 1. 탑티어 저널의 "Gap" 기준
+
+**참고**: 
+- Introduction 리뷰 세션(Phase 3)에서 사용할 Gap-driven 4단계 구조 체크리스트는 아래 "4. Gap-Driven 문헌 리뷰 구조화" 섹션을 참고하세요.
+- 위 "0. Introduction의 전체 구조"에서 설명한 깔때기 구조와 Gap-driven 4단계의 관계를 참고하세요.
 
 ### 1.1 일반 저널 vs Nature/Science의 Gap 차이
 
@@ -80,6 +390,52 @@
 ...
 "
 ```
+
+### 1.3 실제 예제: 탑티어 저널의 Gap-Driven 구조
+
+**실제 논문 예제** (자세한 분석은 `examples_introduction_top_tier_patterns.md` 참조):
+
+#### 패턴 1: Conceptual Gap (개념적 공백)
+**PNAS (2022)** - "Why are people antiscience, and what can we do about it?"
+- **핵심 Gap**: 기존 antiscience 모델들(attitude roots, jiu jitsu models)은 존재하지만, "classic perspective on attitudes and persuasion"이 무시됨
+- **4단계 구조**:
+  1. Established Knowledge: antiscience views의 여러 모델 존재, COVID-19/기후변화 거부 현상
+  2. Emerging Challenges: classic persuasion 이론이 "largely ignored...despite its substantive relevance"
+  3. Critical Gap: 기존 모델들과 classic perspective 사이의 연결 부재
+  4. Research Opportunity: 4가지 bases를 통한 통합 프레임워크 제시
+
+#### 패턴 2: Mechanistic Gap (기전적 공백)
+**JAMA Psychiatry (2021)** - "Reinforcement Learning Disruptions in Individuals With Depression and Sensitivity to Symptom Change Following Cognitive Behavioral Therapy"
+- **핵심 Gap**: CBT가 증상을 개선하는 것은 알려져 있으나, 강화학습 메커니즘과의 관계 불명 ("how these changes relate...remain unclear")
+- **4단계 구조**:
+  1. Established Knowledge: 우울증의 neurocomputational foundations, CBT의 임상 효과
+  2. Emerging Challenges: 증상 개선이 reward responses를 정상화할 수 있지만, baseline impairments와의 관계 불명
+  3. Critical Gap: CBT → 증상 개선 (알려짐), but CBT → 강화학습 변화 → 증상 개선 (불명)
+  4. Research Opportunity: computational model-based analyses로 정밀한 메커니즘 규명
+
+#### 패턴 3: Translational Gap (전이적 공백)
+**Science Advances (2020)** - "A psychological intervention strengthens students' peer social networks and promotes persistence in STEM"
+- **핵심 Gap**: 개인 수준 개입 효과는 알지만, 사회적 네트워크에 미치는 영향은 불명 ("no research has tested this possibility")
+- **4단계 구조**:
+  1. Established Knowledge: 개인 중심 개입(mindsets, character skills)의 효과 확립
+  2. Emerging Challenges: persistence는 개인뿐만 아니라 relational processes의 산물
+  3. Critical Gap: 심리적 위협 → 사회적 방어 → 네트워크 약화, 하지만 개입으로 이를 막을 수 있는지 불명
+  4. Research Opportunity: values affirmation → 사회적 네트워크 강화 → STEM 지속성 향상
+
+#### 패턴 4: Paradox Gap (모순 공백)
+**PNAS (2020)** - "Gender stereotypes can explain the gender-equality paradox"
+- **핵심 Gap**: "gender-equality paradox" - 더 성평등한 국가일수록 STEM 분야 성별 격차가 더 큼 (반직관적)
+- **4단계 구조**:
+  1. Established Knowledge: 여성의 STEM 분야 과소대표, 노동시장 불평등
+  2. Emerging Challenges: "gender-equality paradox" - 성평등 국가에서 더 큰 성별 격차
+  3. Critical Gap: 진화심리학적 설명(innate differences)만으로는 불충분
+  4. Research Opportunity: "culturally constructed gender identities" 프레임워크로 설명
+
+**학습 방법**:
+1. 각 예제의 4단계 구조를 직접 분석해보기
+2. 자신의 연구 주제와 유사한 패턴 찾기
+3. Gap statement가 어떻게 제시되는지 패턴 파악
+4. AI 프롬프트로 자신의 Introduction과 비교 분석
 
 ---
 
@@ -249,6 +605,8 @@ Step 4: 최종 정제
 
 ## 4. Gap-Driven 문헌 리뷰 구조화
 
+**참고**: 이 섹션은 "0. Introduction의 전체 구조"에서 설명한 깔때기 구조의 문헌 리뷰 부분에 해당합니다. Gap-driven 4단계는 깔때기 구조의 "우리가 모르는 것"과 "중요한 질문" 부분을 상세히 구조화한 것입니다.
+
 ### 4.1 전통적 구조 vs Gap-Driven 구조
 
 #### ❌ 전통적 구조 (약함)
@@ -277,6 +635,8 @@ Brown (2022)는 Z를 발견했다."
    "새로운 방법/관점이 이 gap을 해결할 수 있게 한다" (본 연구의 기여)
 ```
 
+**참고**: Phase 3 Introduction 리뷰 세션에서 이 4단계 구조를 체크리스트로 사용합니다.
+
 ### 4.2 AI를 활용한 구조 변환
 
 **프롬프트 레시피:**
@@ -295,6 +655,68 @@ Brown (2022)는 Z를 발견했다."
    - 왜 지금 이 gap을 연구할 수 있는가
 
 각 섹션에서 어떤 논문들을 인용할지 제안해줘."
+```
+
+### 4.3 실제 예제로 학습하기
+
+**실습 활동: 탑티어 Introduction 분석**
+
+#### Step 1: 예제 선택
+`examples_introduction_top_tier_patterns.md`에서 자신의 연구와 유사한 Gap 패턴의 예제 선택
+
+#### Step 2: 4단계 구조 분석
+선택한 예제의 Introduction을 다음 구조로 분석:
+
+```
+1. Established Knowledge (확립된 지식)
+   - 어떤 consensus가 제시되는가?
+   - 어떤 논문들이 인용되는가?
+   - 정량적 증거는 무엇인가?
+
+2. Emerging Challenges (새로운 도전)
+   - 어떤 모순/한계가 제시되는가?
+   - 왜 기존 지식에 의문이 제기되는가?
+
+3. Critical Gap (핵심 공백)
+   - Gap statement는 어떻게 표현되는가?
+   - 왜 이 gap이 중요한가?
+
+4. Research Opportunity (연구 기회)
+   - 어떤 방법/관점이 제시되는가?
+   - 왜 지금 이 gap을 해결할 수 있는가?
+```
+
+#### Step 3: 자신의 Introduction과 비교
+AI 프롬프트로 비교 분석:
+
+```
+"다음은 탑티어 저널(PNAS)의 Introduction 예제입니다:
+[예제 Introduction]
+
+다음은 제 Introduction 초안입니다:
+[내 Introduction]
+
+비교 분석:
+1. 4단계 구조가 명확한가? (Established Knowledge → Emerging Challenges → Critical Gap → Research Opportunity)
+2. Gap statement가 충분히 강한가? (Conceptual/Mechanistic/Translational/Paradox?)
+3. 각 단계에서 어떤 논문들이 인용되는가? (내 초안과 비교)
+4. 개선이 필요한 부분은 무엇인가?
+
+구체적인 개선 제안을 3가지 버전으로 제시해줘."
+```
+
+#### Step 4: 패턴 적용
+자신의 Introduction을 선택한 예제의 패턴에 맞춰 재구성:
+
+```
+"다음 Introduction을 [선택한 예제]의 패턴에 맞춰 재구성해줘:
+[내 Introduction]
+
+재구성 시:
+- 4단계 구조 명확히
+- Gap statement 강화
+- 각 단계에서 인용할 논문 제안
+- 탑티어 저널 스타일로 작성"
 ```
 
 ---
@@ -406,49 +828,133 @@ AI 강화 버전 3개 생성
 
 ---
 
-## Workshop 실습 (70-75분)
+## Workshop 실습 (100-105분)
 
-### Phase 1: Gap Discovery (20분)
+### Phase 0: 실제 예제 분석 (5분)
 
-**Activity 1 (10분): AI를 활용한 landscape mapping**
-- 각자 자신의 연구 주제로 contradiction mining
-- Cross-disciplinary connection 탐색
-- AI 제시 논문 중 3편 Google Scholar 검증
+**사전 준비 확인** (과제에서 수행):
+- `examples_introduction_top_tier_patterns.md` 읽기 완료
+- 자신의 연구와 유사한 Gap 패턴 1개 선택 완료
 
-**Activity 2 (10분): Critical review analysis**
-- 주요 논문 5편의 한계점을 4가지 카테고리로 분류
-- AI로 공통 한계점에서 gap 도출
-- 가장 유망한 gap 3개 선별
+**Activity 0: 탑티어 Introduction 패턴 분석**
+- 선택한 예제의 4단계 구조 빠른 분석 (3분)
+  - [체크리스트 사용]
+  - Established Knowledge: 어떤 consensus가 제시되는가?
+  - Emerging Challenges: 어떤 모순/한계가 제시되는가?
+  - Critical Gap: Gap statement는 어떻게 표현되는가?
+  - Research Opportunity: 어떤 방법/관점이 제시되는가?
+- 동료와 선택한 예제 및 분석 결과 간단히 공유 (2분)
+  - [짝과 1분씩 공유]
+  - 선택한 예제와 이유
+  - 핵심 인사이트 1가지
 
-### Phase 2: Gap Validation & Crafting (25분)
+**목표**: 탑티어 저널의 Gap-driven 구조를 직접 체험하고, 자신의 Introduction 작성에 적용할 패턴 파악
 
-**Activity 3 (12분): Gap validation**
-- AI로 false gap 체크
-- Google Scholar로 실제 검증 (키워드 5개 조합)
-- 동료에게 "진짜 gap인가?" 질문
+---
 
-**Activity 4 (13분): Gap statement crafting**
-- AI로 3가지 버전 생성 (다른 framing)
-- 강한 gap statement 요소 포함 여부 체크
-  - Broader significance?
-  - 기존 연구가 해결 못한 이유?
-  - Conceptual/practical advance?
+### Phase 1: Gap Discovery (18분)
 
-### Phase 3: Peer Review (20분)
+**Activity 1 (4분): AI를 활용한 landscape mapping**
+- 각자 자신의 연구 주제로 contradiction mining (2분)
+- Cross-disciplinary connection 탐색 (2분)
+- AI 제시 논문 3편 기록 (논문 제목, 저자, 연도)
+- [참고: Google Scholar 검증은 Activity 3으로 이동]
 
-**Activity 5: Structured gap peer review**
-- 2명의 동료 gap을 template로 평가 (15분)
-- 피드백 주고받기 (5분)
+**Activity 2 (14분): Critical review analysis**
+- 사전에 선정한 주요 논문 3편의 한계점을 4가지 카테고리로 분류 (10분)
+  - 각 논문당 약 3분씩 할당
+  - Methodological/Theoretical/Generalizability/Translational limitations
+- AI로 공통 한계점에서 gap 도출 (2분)
+- 가장 유망한 gap 3개 선별 (2분)
 
-### Phase 4: 최종 정제 + 공유 (10분)
+### Phase 2: Gap Validation & Crafting (22분)
 
-**Activity 6: AI를 활용한 피드백 반영**
-- 동료 피드백을 반영한 최종안 생성 (7분)
-- 가장 효과적이었던 gap discovery 전략 공유 (3분)
+**Activity 3 (13분): Gap validation**
+- AI로 false gap 체크 (2분)
+  - [구체적 프롬프트 사용]
+- Google Scholar로 실제 검증 (7분)
+  - [키워드 조합 전략 가이드 제공]
+  - 최소 3개 키워드 조합으로 검색
+  - 상위 5개 결과 확인 및 기록
+- 동료에게 "진짜 gap인가?" 질문 (2분)
+- False gap 발견 시 대응 전략 (2분)
+  - 다른 gap 탐색 또는 gap statement 재프레이밍
+
+**Activity 4 (9분): Gap statement crafting**
+- AI로 3가지 버전 생성 (4분)
+  - [구체적 프롬프트 제공]
+  - 각 버전은 다른 framing 전략 사용
+- 강한 gap statement 요소 체크 (3분)
+  - [체크리스트 사용]
+  - Broader significance 포함 여부
+  - 기존 연구가 해결 못한 이유 명시
+  - Conceptual/practical advance 제시
+- 최종 버전 선택 (2분)
+
+### Phase 3: Introduction 리뷰 세션 (60분)
+
+**전체 그룹에서 한 명씩 발표 후 리뷰**
+
+**리뷰 기준: Gap-driven 4단계 구조** (강의 시간에 안내됨)
+
+**체크리스트 (빠른 리뷰):**
+1. **Established Knowledge**: 명확한 consensus? 적절한 인용? 정량적 증거?
+2. **Emerging Challenges**: 모순/한계 명확? 기존 지식에 의문? 중요성 설명?
+3. **Critical Gap**: Gap statement 명확? 적절한 유형? (Conceptual/Mechanistic/Translational/Paradox?) Incremental 아님? Broader significance?
+4. **Research Opportunity**: 해결 방법 제시? 왜 지금? 본 연구 기여 명확?
+
+**리뷰 형식:**
+- 발표자: 자신의 Introduction 발표 (2분)
+- 전체 그룹: 체크리스트 기반 코멘트 (4분)
+  - 강점 1가지
+  - 개선점 1가지
+  - 구체적 제안
+
+#### 학생 10명 순차 발표 및 리뷰 (60분)
+
+**각 학생당 6분 (총 10명 × 6분 = 60분)**
+
+**진행 방식:**
+1. 발표자: 자신의 Introduction 발표 (2분)
+   - Gap-driven 4단계 구조 설명
+   - 핵심 Gap statement 강조
+   - 어려웠던 점 또는 질문
+
+2. 전체 그룹: 체크리스트 기반 코멘트 (4분)
+   - [구조화된 피드백]
+   - **강점 1가지**: 어떤 부분이 잘 되었는가?
+   - **개선점 1가지**: 가장 중요한 개선이 필요한 부분은?
+   - **구체적 제안**: 어떻게 개선할 수 있는가?
+   - [각 코멘트는 30초 이내로 간결하게]
+
+**시간 관리:**
+- 각 학생당 정확히 6분 엄수
+- 발표 2분 초과 시 정중히 중단
+- 리뷰 4분 초과 시 다음 학생으로 이동
+
+**참고**: 전체 공유 및 정리는 Phase 4에서 간단히 진행
+
+**목표**: 
+- 자신의 Introduction을 Gap-driven 구조 관점에서 평가받기
+- 다른 학생들의 Introduction에서 배우기
+- 구체적이고 실용적인 피드백 받기
+
+### Phase 4: Recipe 공유 (5분)
+
+**Activity 6: 효과적 전략 공유**
+- 가장 효과적이었던 gap discovery 전략 간단히 공유 (3분)
+  - [전체 그룹에서 2-3명만 공유]
   - 어떤 AI 프롬프트가 유용했는가?
   - False gap을 어떻게 걸러냈는가?
+- 다음 단계 안내 (2분)
+  - 과제 완성을 위한 체크리스트
+  - 추가 자료 안내
 
-**총 Workshop 시간: 75분 (강의 15-20분 포함하면 90-95분)**
+**참고**: 
+- Introduction 리뷰에서 받은 피드백 반영은 과제 시간에 수행
+- Gap statement 최종 정제는 과제 시간에 수행
+
+**총 Workshop 시간: 110분 (강의 15-20분 포함하면 125-130분, 약 2시간)**
 
 ---
 
@@ -458,19 +964,20 @@ AI 강화 버전 3개 생성
 
 **제출물:**
 
-1. **Gap Discovery Documentation (800 words)**
+1. **Gap Discovery Documentation (600 words)**
    - **Landscape mapping 결과**
      - Consensus 3가지
      - Debates/contradictions 3가지
      - Unexplored areas 2가지
    - **Critical review analysis**
-     - 논문 5편 이상 분석
+     - 논문 3편 이상 분석 (Phase 1 Activity 2에서 분석한 논문)
      - 각 논문의 한계점 (4가지 카테고리)
      - 공통 한계점에서 도출한 gap
    - **Gap validation 과정**
-     - Google Scholar 검색 키워드 및 결과
+     - Google Scholar 검색 키워드 및 결과 (Activity 3에서 수행)
      - 확인한 논문 리스트 (유사 연구 있었는가?)
      - AI 검증 결과
+     - False gap 발견 시 대응 전략
 
 2. **Gap Statement (150-200 words)**
    - 최종 gap statement (1-2 단락)
@@ -479,40 +986,69 @@ AI 강화 버전 3개 생성
      - 기존 연구가 해결 못한 이유
      - Conceptual/practical advance
 
-3. **Gap-driven 문헌 리뷰 구조 (500 words)**
+3. **Gap-driven 문헌 리뷰 구조 (400 words)**
    - Established knowledge (consensus)
    - Emerging challenges (contradictions/limitations)
    - Critical gap (what we don't know)
    - Research opportunity (why now)
+   - **📝 작성 템플릿 활용**: [Introduction 작성 템플릿 (Notion)](https://www.notion.so/2a841454561d8084a7c3cf21eefc6e07)의 Gap-driven 문헌 리뷰 구조 섹션 참고
 
-4. **AI 활용 과정 (500 words)**
-   - 사용한 프롬프트 레시피 **5개 이상**
+4. **탑티어 예제 비교 분석 (200 words)** [Phase 0 결과 활용]
+   - Phase 0에서 선택한 예제의 4단계 구조 분석 요약
+   - 자신의 Introduction 초안과 비교
+     - 4단계 구조가 명확한가?
+     - Gap statement가 충분히 강한가?
+     - 개선이 필요한 부분은 무엇인가?
+   - 선택한 예제의 패턴을 자신의 Introduction에 어떻게 적용할 수 있는가?
+
+5. **Introduction 리뷰 세션 반영 (200 words)** [Phase 3 결과 활용]
+   - Phase 3에서 받은 피드백 요약
+     - 강점 1가지
+     - 개선점 1가지
+     - 구체적 제안
+   - 각 피드백을 어떻게 반영했는지
+   - 리뷰 세션에서 배운 점
+
+6. **AI 활용 과정 (400 words)**
+   - 사용한 프롬프트 레시피 **5개 이상** (각 프롬프트별 효과성 평가)
    - 각 단계에서 AI가 어떻게 도움이 됐는지
    - AI의 한계 및 인간 판단이 필요했던 지점
    - False gap을 걸러낸 과정
+   - **AI 활용 윤리**: AI 출력을 어떻게 검증하고 인용했는가?
 
-5. **Peer Review 반영 (300 words)**
-   - 받은 피드백 요약 (4가지 평가 항목별)
+7. **Gap Statement Peer Review 반영 (200 words)** [Phase 2 Activity 4 결과 활용]
+   - Phase 2에서 받은 gap statement 피드백 요약
    - 각 피드백을 어떻게 반영했는지
 
 ### 평가 기준
 
-- **Gap Quality (35%)**
+- **Gap Quality (30%)**
   - Conceptual/Mechanistic/Translational depth
   - Novelty (false gap 아님)
   - Significance (broad impact)
 
-- **Validation Rigor (25%)**
+- **Validation Rigor (20%)**
   - 체계적 검증 과정 (landscape → critical → validation)
   - False gap 방지 (Google Scholar 검색 기록)
   - 동료/전문가 검증
 
-- **AI 활용 효과성 (25%)**
+- **탑티어 예제 비교 분석 (15%)**
+  - 적절한 예제 선택 (자신의 연구와 유사한 Gap 패턴)
+  - 4단계 구조 분석의 깊이
+  - 자신의 Introduction과의 비교 분석 품질
+  - 패턴 적용 방안의 구체성
+
+- **Introduction 리뷰 세션 반영 (15%)**
+  - 받은 피드백의 구체성 및 건설성
+  - 피드백 반영의 적절성
+  - 리뷰 세션에서의 학습 효과
+
+- **AI 활용 효과성 (15%)**
   - 전략적 프롬프트 사용 (5개 이상)
   - 비판적 검토 (AI 출력을 그대로 사용하지 않음)
   - 단계별 정제
 
-- **동료 피드백 품질 (15%)**
+- **Gap Statement Peer Review 반영 (10%)**
   - 구체성 (모호한 평가 아닌 구체적 지적)
   - 건설성 (비판 + 개선 방안)
   - 반영 여부
@@ -534,9 +1070,6 @@ Feasibility (현재 기술로 연구 가능)
 Nature/Science급 Research Gap
 ```
 
-### RAG의 역할
-> "윤경생 강의에서 RAG **기술**을 배웠다면,
-> 본 강의에서는 RAG를 '탑티어 Gap 발견'이라는 **목표**에 전략적으로 활용."
 
 ---
 
@@ -567,10 +1100,86 @@ Nature/Science급 Research Gap
 
 ## 참고 자료
 
+### 📝 Introduction 작성 템플릿
+
+**Notion 템플릿**: [Introduction 작성 템플릿 (Notion)](https://www.notion.so/2a841454561d8084a7c3cf21eefc6e07)
+- 각자의 Introduction을 작성할 수 있는 구조화된 템플릿
+- 깔때기 구조 (우리가 모르는 것 → 중요한 질문 → 나의 연구 질문 → 우리의 어프로치)
+- Gap-driven 4단계 구조 (Established Knowledge → Emerging Challenges → Critical Gap → Research Opportunity)
+- 체크리스트 및 AI 활용 프롬프트 레시피 포함
+
+### 📚 핵심 자료: 탑티어 Introduction 예제 모음
+
+**`examples_introduction_top_tier_patterns.md`** (필수 읽기)
+- Gap-driven 구조 패턴별로 분류된 실제 Introduction 예제
+- **패턴 1**: Conceptual Gap (개념적 공백) - 사회심리학 예제
+- **패턴 2**: Mechanistic Gap (기전적 공백) - 임상심리학 예제
+- **패턴 3**: Translational Gap (전이적 공백) - 교육심리학 예제
+- **패턴 4**: Paradox Gap (모순 공백) - 사회심리학 예제
+- 각 예제의 4단계 구조 분석 (Established Knowledge → Emerging Challenges → Critical Gap → Research Opportunity)
+- Impact Factor 상위 10% 탑티어 저널 스타일 반영 (PNAS, JAMA Psychiatry, Science Advances)
+- 심리학/행동과학 중심
+
+#### 실제 논문 정보
+
+**1. Conceptual Gap 예제**
+- **저널**: PNAS (Impact Factor: ~12)
+- **연도**: 2022
+- **저자**: Aviva Philipp-Muller, Spike W. S. Lee, Richard E. Petty
+- **제목**: "Why are people antiscience, and what can we do about it?"
+- **URL**: https://www.pnas.org/doi/10.1073/pnas.2120755119
+- **핵심 내용**: 기존 antiscience 모델들과 classic persuasion 이론 사이의 연결 부재를 통합 프레임워크로 해결
+
+**2. Mechanistic Gap 예제**
+- **저널**: JAMA Psychiatry (Impact Factor: ~25)
+- **연도**: 2021
+- **저자**: Victoria M. Brown, Lisheng Zhu, Alec Solway, et al.
+- **제목**: "Reinforcement Learning Disruptions in Individuals With Depression and Sensitivity to Symptom Change Following Cognitive Behavioral Therapy"
+- **URL**: https://jamanetwork.com/journals/jamapsychiatry/fullarticle/2782452
+- **핵심 내용**: CBT가 증상을 개선하는 것은 알려져 있으나, 강화학습 메커니즘과의 관계 불명
+
+**3. Translational Gap 예제**
+- **저널**: Science Advances (Impact Factor: ~14, Science family)
+- **연도**: 2020
+- **저자**: Kate M. Turetsky, Kathryn E. Purdie-Greenaway, Geoffrey L. Cohen, Jonathan F. Cook, Valerie Purdie-Vaughns
+- **제목**: "A psychological intervention strengthens students' peer social networks and promotes persistence in STEM"
+- **URL**: https://www.science.org/doi/10.1126/sciadv.aba9221
+- **핵심 내용**: 개인 수준 개입 효과는 알지만, 사회적 네트워크에 미치는 영향은 불명
+
+**4. Paradox Gap 예제**
+- **저널**: PNAS (Impact Factor: ~12)
+- **연도**: 2020
+- **저자**: Thomas Breda, Elyès Jouini, Clotilde Napp, Georgia Thebault
+- **제목**: "Gender stereotypes can explain the gender-equality paradox"
+- **URL**: https://www.pnas.org/doi/10.1073/pnas.2008704117
+- **핵심 내용**: "gender-equality paradox" - 더 성평등한 국가일수록 STEM 분야 성별 격차가 더 큼
+
+### 학습 방법
+
+**Step 1: 예제 선택 및 분석**
+1. `examples_introduction_top_tier_patterns.md`에서 자신의 연구와 유사한 Gap 패턴 선택
+2. 선택한 예제의 4단계 구조를 직접 분석
+   - Established Knowledge: 어떤 consensus가 제시되는가?
+   - Emerging Challenges: 어떤 모순/한계가 제시되는가?
+   - Critical Gap: Gap statement는 어떻게 표현되는가?
+   - Research Opportunity: 어떤 방법/관점이 제시되는가?
+
+**Step 2: 자신의 Introduction과 비교**
+- AI 프롬프트로 탑티어 예제와 자신의 Introduction 비교 분석
+- 4단계 구조가 명확한지 확인
+- Gap statement가 충분히 강한지 평가
+- 개선이 필요한 부분 파악
+
+**Step 3: 패턴 적용**
+- 자신의 Introduction을 선택한 예제의 패턴에 맞춰 재구성
+- 탑티어 저널 스타일로 작성
+
 ### 추천 읽기
-- Nature/Science Introduction 섹션 10편
-  - Gap statement가 어떻게 제시되는지 분석
-  - Gap-driven 구조 패턴 파악
+- **실제 논문 분석**: 위 4개 논문의 Introduction 섹션을 직접 읽고 분석
+  - `examples_introduction_top_tier_patterns.md`의 패턴을 참고하여 실제 논문 분석
+  - Gap statement가 어떻게 제시되는지 패턴 파악
+  - Gap-driven 구조가 어떻게 구현되는지 학습
+  - Nature Human Behaviour, Science, PNAS 등 추가 탑티어 저널 논문도 분석 권장
 
 ### 프롬프트 레시피 라이브러리
 - 공유 게시판에서 동료들의 효과적 gap discovery 프롬프트 참고
