@@ -723,3 +723,21 @@ pip install notion-client
 - **Peer learning**: Always include pair/group activities
 - **Original materials**: `lecture_notes.md` is reference only, not for teaching
 - If adding content: Compress first, then add to workshop materials, not lecture slides
+
+### Git Push 설정
+**사용자가 "push" 요청 시 모든 remote에 push:**
+
+```bash
+git push origin main && git push snuaipsych main && git push snuconnectome main
+```
+
+**Remote 설정 (2025-12-01 기준):**
+| Remote | URL | 계정 |
+|--------|-----|------|
+| `origin` | https://github.com/AI4Psych/AI4Psych_writing.git | HTTPS |
+| `snuaipsych` | https://github.com/AI4Psych/AI4Psych_writing.git | HTTPS |
+| `snuconnectome` | git@github.com-snuconnectome:snuconnectome/AI4Psych_writing.git | SSH (snuconnectome) |
+
+**SSH 키 설정:**
+- `~/.ssh/id_ed25519_jcha9928` → jcha9928 계정 (GitHub에 등록됨)
+- `~/.ssh/id_ed25519_snuconnectome` → snuconnectome 계정
