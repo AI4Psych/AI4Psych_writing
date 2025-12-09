@@ -19,9 +19,78 @@
 - Week 3의 gap을 해결하는 연구 방법론 제시
 - 완벽하지 않아도 됨 - 수업에서 AI로 bulletproofing할 예정
 
+**사전 읽기 (선택):**
+- Genesis Mission Executive Order (AI-Accelerated Science Discovery)
+  - https://www.whitehouse.gov/presidential-actions/2025/11/launching-the-genesis-mission/
+  - "AI가 과학 연구를 어떻게 변화시키는가"에 대한 토론 준비
+
 ---
 
-## 🎓 90분 Workshop 구조
+## 🎓 100분 Workshop 구조 (확장)
+
+**Opening Discussion 15분** + **강의 15분** + **Workshop/Discussion 70분**
+
+---
+
+## 🌍 Opening Discussion: Genesis Mission & AI in Science (15분)
+
+### Genesis Mission: 미국의 AI 과학 가속화 전략
+
+**배경 읽기**: [Genesis Mission Executive Order (2025.11)](https://www.whitehouse.gov/presidential-actions/2025/11/launching-the-genesis-mission/)
+
+> "This order launches the Genesis Mission as a dedicated, coordinated national effort to unleash a new age of AI-accelerated innovation and discovery that can solve the most challenging problems of this century."
+
+#### 핵심 내용 요약
+
+**Genesis Mission의 목표:**
+- 연방 과학 데이터셋(세계 최대 규모)을 활용해 과학 기반 모델 훈련
+- AI 에이전트를 통한 가설 테스트, 연구 워크플로우 자동화
+- 과학 발견의 극적 가속화
+
+**American Science and Security Platform:**
+1. 고성능 컴퓨팅 자원 (국립연구소 슈퍼컴퓨터 + 클라우드 AI)
+2. AI 모델링 및 분석 프레임워크
+3. 도메인별 기반 모델 (foundation models)
+4. 자율/AI-증강 실험 및 제조 도구
+
+**국가적 과학기술 도전 과제 (20개 이상 선정):**
+- 첨단 제조, 바이오테크놀로지, 핵심 재료
+- 핵분열/핵융합 에너지, 양자정보과학, 반도체
+
+#### 토론 질문 (10분)
+
+**[전체 토론]** 다음 질문에 대해 생각해보고, 2-3명과 짧게 논의하세요:
+
+1. **AI와 연구 방법론의 변화**
+   - "AI가 Methods 섹션을 어떻게 바꿀 것인가?"
+   - 현재: 연구자가 설계, 수행, 분석
+   - 미래: AI 에이전트가 가설 생성, 실험 설계, 자동 분석?
+
+2. **재현성과 AI**
+   - "AI가 생성한 연구 방법론은 더 재현 가능할까, 덜 재현 가능할까?"
+   - AI 코드와 파라미터가 완벽히 기록된다면?
+   - "Black box" AI 모델의 해석 가능성 문제는?
+
+3. **내 연구에 적용한다면**
+   - "Genesis Mission 스타일의 AI 플랫폼이 있다면, 내 연구에서 어떻게 활용할 수 있을까?"
+   - 데이터 수집 자동화? 문헌 분석? 가설 생성?
+   - 한계와 윤리적 고려사항은?
+
+#### 연결점: 왜 지금 Methods/Results Bulletproofing이 중요한가
+
+**핵심 메시지:**
+
+> AI 시대에도 (어쩌면 AI 시대이기에 더욱) **투명하고 재현 가능한 연구 방법론**이 중요합니다.
+>
+> - AI가 분석을 돕더라도, 인간이 **설계의 논리와 타당성을 검증**해야 합니다
+> - AI 도구 사용 시 **버전, 파라미터, 프롬프트**까지 Methods에 기술해야 합니다
+> - "AI가 했다"는 변명이 아닌, **AI를 어떻게 사용했는지** 투명하게 보고해야 합니다
+
+**이번 강의의 목표:**
+- 리뷰어 공격을 방어할 수 있는 철저한 Methods/Results 작성
+- AI 시대에도 변하지 않는 원칙: Reproducibility, Control, Rigor, Transparency
+
+---
 
 **강의 15-20분** + **Workshop/Discussion 70-75분**
 
@@ -577,41 +646,68 @@ Cohen's d = 1.12, 95% CI [0.71, 1.53]"
 
 ---
 
-## Workshop 실습 (70-75분)
+## Workshop 실습 (85분)
 
-### Phase 1: Bulletproofing Audit (25분)
+> **수업 구조 (100분 총)**:
+> - Opening Discussion: Genesis Mission (15분)
+> - Workshop 실습 (85분)
 
-**Activity 1 (12분): Methods reproducibility check**
+### Phase 1: Bulletproofing Audit (20분)
+
+**Activity 1 (10분): Methods reproducibility check**
 - AI로 재현성 취약점 10가지 도출
 - 각 취약점 개선 방법 논의
 
-**Activity 2 (13분): Results claim checker**
+**Activity 2 (10분): Results claim checker**
 - Overclaiming 위험 문장 식별
 - Effect size + practical significance 평가
 
-### Phase 2: Statistical Rigor (20분)
+### Phase 2: Statistical Rigor (15분)
 
-**Activity 3 (12분): Power analysis review**
+**Activity 3 (10분): Power analysis review**
 - AI로 sample size 정당화 강화
 - Multiple comparison 보정 체크
 
-**Activity 4 (8분): Transparency audit**
+**Activity 4 (5분): Transparency audit**
 - Selective reporting 위험 평가
 - 추가 보고 필요 항목 리스트
 
-### Phase 3: Peer Review (20분)
+### Phase 3: 저널 예제 & 학생 예시 비교 (20분) ⭐ NEW
 
-**Activity 5: Structured peer review**
-- 2명 동료 평가 (template 사용)
+> **저널 사례를 먼저 보고, 자신/동료의 글과 비교합니다.**
+> 자세한 진행 방법은 **Section 8** 참조
+
+**Activity 5 (5분): Quick Journal Benchmark**
+- Section 7.6-7.7의 Nature/Science 템플릿 훑어보기
+- 핵심 체크포인트 3가지 확인
+
+**Activity 6 (10분): 동료 예시 교환 & 비교 분석**
+- 2-3명 그룹 형성
+- Section 8.2 비교 분석 템플릿 사용
+- 저널 예제 vs 내 글 gap 분석
+
+**Activity 7 (5분): 그룹 토론 & 개선점 도출**
+- 가장 큰 gap 공유
+- 즉시 수정 가능한 항목 리스트
+
+### Phase 4: Peer Review (15분)
+
+**Activity 8: Structured peer review**
+- 2명 동료 평가 (Section 6.1 template 사용)
 - 리뷰어 질문 예측 및 방어 전략 논의
 
-### Phase 4: 최종 개선 + 공유 (10분)
+### Phase 5: 최종 개선 + 공유 (15분)
 
-**Activity 6: AI로 피드백 통합**
-- 받은 피드백 반영한 개선안 생성 (7분)
-- 가장 효과적이었던 bulletproofing 전략 공유 (3분)
+**Activity 9 (10분): AI로 피드백 통합**
+- 받은 피드백 반영한 개선안 생성
+- Recipe #44, #45 활용
 
-**총 Workshop 시간: 75분 (강의 15-20분 포함하면 90-95분)**
+**Activity 10 (5분): 전체 공유 및 정리**
+- 가장 효과적이었던 bulletproofing 전략 공유
+- 저널 예제에서 가장 놀랐던 점 공유
+- 교수 피드백: 공통 gap 패턴
+
+**총 Workshop 시간: 85분 (Opening Discussion 15분 포함 = 100분)**
 
 ---
 
@@ -747,3 +843,645 @@ Nature/Science 리뷰어가 공격할 틈 없는 Methods/Results
 - **Claude**: Statistical review, reviewer question prediction
 - **Perplexity**: 통계 방법 best practices 검색
 - **G*Power**: Power analysis (AI가 아닌 전용 소프트웨어)
+
+---
+
+## 📚 Top-Tier Journal 실제 사례 및 Best Practices
+
+> **Note**: 이 섹션은 Nature, Science, Nature Human Behaviour, PNAS 등 top-tier 저널의 실제 가이드라인과 모범 사례를 정리한 것입니다.
+
+### 7.1 Nature Human Behaviour의 재현성 이니셔티브 (2024)
+
+**Institute for Replication (I4R) 협력**
+
+Nature Human Behaviour는 2024년부터 Institute for Replication (I4R)과 협력하여 재현성 검증을 강화했습니다.
+
+**핵심 요구사항:**
+
+| 요소 | Nature Human Behaviour 기준 | 일반 저널 기준 |
+|------|----------------------------|---------------|
+| Sample size justification | A priori power analysis 필수 | 권장 |
+| Pre-registration | 권장 (Registered Reports 트랙 별도) | 선택 |
+| Data availability | 공개 또는 통제 접근 필수 | 선택 |
+| Code availability | 분석 코드 공개 필수 | 권장 |
+| Effect size reporting | Cohen's d, η², r 등 필수 | 권장 |
+
+**실제 저널 가이드라인에서 발췌:**
+
+> "Authors must report effect sizes and confidence intervals for all statistical tests. P-values alone are insufficient for evaluating the practical significance of findings."
+> — Nature Human Behaviour Author Guidelines (2024)
+
+---
+
+### 7.2 Effect Size 보고 기준: 종합 가이드
+
+**Cohen's d (독립표본 비교)**
+
+| 크기 | 값 | 해석 | 실제 예시 |
+|------|-----|------|----------|
+| Small | d = 0.2 | 육안으로 구분 어려움 | 약한 개입 효과 |
+| Medium | d = 0.5 | 육안으로 구분 가능 | 전형적 심리치료 효과 |
+| Large | d = 0.8 | 명확히 구분 가능 | 강력한 실험 조작 |
+
+**Nature/Science급 보고 예시:**
+
+```
+❌ 부적절한 보고:
+"The experimental group showed significantly higher scores than the control group (p < .05)."
+
+✅ Nature-level 보고:
+"The experimental group (M = 85.3, SD = 12.1, n = 48) demonstrated
+significantly higher scores than the control group (M = 72.4, SD = 10.8, n = 52),
+t(98) = 5.43, p < .001, Cohen's d = 1.12, 95% CI [0.71, 1.53],
+representing a large effect size."
+```
+
+**Partial Eta-Squared (η²p) - ANOVA용**
+
+| 크기 | 값 | 해석 |
+|------|-----|------|
+| Small | η²p = 0.01 | 분산의 1% 설명 |
+| Medium | η²p = 0.06 | 분산의 6% 설명 |
+| Large | η²p = 0.14 | 분산의 14% 이상 설명 |
+
+**ANOVA 완전 보고 예시:**
+
+```
+"A 2 (Condition: experimental vs. control) × 3 (Time: pre, post, follow-up)
+mixed ANOVA revealed a significant interaction effect, F(2, 196) = 8.42,
+p < .001, η²p = .079, 90% CI [.03, .13]. Simple effects analyses
+with Bonferroni correction (α = .017) showed..."
+```
+
+---
+
+### 7.3 Power Analysis 현황: 심리학 연구의 변화 (2015-2021)
+
+**체계적 리뷰 결과** (903편 논문 분석, PNAS 2025)
+
+| 연도 | Power analysis 보고율 | 평균 목표 power |
+|------|---------------------|----------------|
+| 2015 | 9.5% | 0.80 |
+| 2018 | 18.2% | 0.80 |
+| 2021 | 30.0% | 0.80-0.95 |
+
+**주요 발견:**
+- Top-tier 저널일수록 power analysis 요구가 엄격
+- 2015년 이후 보고율 3배 이상 증가
+- 그러나 여전히 70%가 power analysis 미보고
+
+**Best Practice: Power Analysis 보고 템플릿**
+
+```markdown
+**Sample Size Determination**
+
+An a priori power analysis was conducted using G*Power 3.1
+(Faul et al., 2009) based on the following parameters:
+
+- Test: Independent samples t-test (two-tailed)
+- Expected effect size: Cohen's d = 0.50
+  (based on meta-analysis by Smith et al., 2020, k = 15 studies)
+- Alpha: α = 0.05
+- Power: 1 - β = 0.80
+
+Required sample size: N = 128 (64 per group)
+
+We recruited N = 140 to allow for ~10% attrition,
+yielding a final sample of N = 132 after exclusions.
+
+Sensitivity analysis: With our final sample (N = 132),
+we had 80% power to detect effects of d ≥ 0.49.
+```
+
+---
+
+### 7.4 Multiple Comparison 보정: APA JARS 기준
+
+**Journal Article Reporting Standards (JARS) - 통계 보고 요구사항**
+
+| 상황 | 권장 보정 방법 | 예시 |
+|------|--------------|------|
+| 2-3 비교 | Bonferroni | α/k (α = .05/3 = .017) |
+| 4-10 비교 | Holm-Bonferroni | 순차적 보정 |
+| >10 비교 | False Discovery Rate (FDR) | Benjamini-Hochberg |
+| 탐색적 분석 | FDR 또는 별도 섹션 | "Exploratory analyses" 명시 |
+
+**실제 보고 예시:**
+
+```
+❌ 문제적 보고:
+"We conducted 12 comparisons and found that 3 were significant
+at p < .05."
+
+✅ 적절한 보고:
+"We conducted 12 planned comparisons. To control the family-wise
+error rate, we applied the Benjamini-Hochberg procedure to control
+the false discovery rate at q = .05. Three comparisons survived
+correction (adjusted p-values: .008, .012, .041). The remaining
+9 comparisons were not significant after correction (all adjusted
+ps > .10; see Supplementary Table S2 for complete results)."
+```
+
+---
+
+### 7.5 TOP Guidelines: 투명성 수준별 기준
+
+**Transparency and Openness Promotion (TOP) Guidelines**
+
+Level 0-3으로 투명성 수준을 평가:
+
+| Level | Data Citation | Materials | Code | Pre-registration |
+|-------|--------------|-----------|------|------------------|
+| 0 | 언급 없음 | 언급 없음 | 언급 없음 | 언급 없음 |
+| 1 | 저널 권장 | 저널 권장 | 저널 권장 | 저널 권장 |
+| 2 | 필수 요구 | 필수 요구 | 필수 요구 | 필수 요구 |
+| 3 | 검증 절차 | 검증 절차 | 검증 절차 | 검증 절차 |
+
+**Nature Human Behaviour: Level 2-3 수준 요구**
+
+**Data Availability Statement 예시:**
+
+```
+❌ 부적절:
+"Data are available upon reasonable request."
+
+✅ Nature-level:
+"The anonymized data and analysis scripts that support the findings
+of this study are available at [OSF link]
+(https://osf.io/xxxxx). Materials are available at [GitHub link].
+Due to IRB restrictions, raw audio recordings cannot be shared,
+but processed transcripts are provided."
+```
+
+---
+
+### 7.6 Nature/Science 수준 Methods 섹션 구조
+
+**실제 Nature Human Behaviour 논문 구조 분석:**
+
+```markdown
+## Methods
+
+### Participants
+Participants (N = 245; 142 female, 98 male, 5 non-binary;
+M_age = 23.4 years, SD = 4.2, range: 18-40) were recruited
+via [platform]. Exclusion criteria included: (a) history of
+neurological disorders, (b) non-native English proficiency,
+(c) participation in related studies within 6 months.
+
+Sample size was determined by a priori power analysis
+(see Supplementary Methods).
+
+### Materials
+#### Experimental stimuli
+Stimuli consisted of 120 images selected from the IAPS
+(Lang et al., 2008) based on normative arousal ratings
+(M = 5.2, SD = 1.1 on 9-point scale) and valence ratings
+(negative: M = 2.3; neutral: M = 5.0; positive: M = 7.1).
+
+#### Self-report measures
+Emotional intensity was assessed using a 7-point Likert scale
+(1 = "not at all intense" to 7 = "extremely intense"),
+adapted from [citation]. Internal consistency was high
+(Cronbach's α = .89).
+
+### Procedure
+[Timeline figure reference]
+Participants completed the study in a single 45-minute session.
+After providing informed consent (approved by [IRB], #12345),
+participants were randomly assigned to experimental (n = 123)
+or control (n = 122) conditions using block randomization
+(block size = 4).
+
+The procedure consisted of:
+1. Baseline assessment (5 min): [description]
+2. Manipulation phase (20 min): [detailed description]
+3. Test phase (15 min): [detailed description]
+4. Debriefing (5 min): [description]
+
+### Data analysis
+All analyses were conducted in R (v4.2.0) using the lme4 package
+(v1.1-30) for mixed-effects models. Analysis scripts are available
+at [link].
+
+Pre-registered hypotheses and analysis plan: [OSF link]
+```
+
+---
+
+### 7.7 Nature/Science 수준 Results 섹션 구조
+
+**실제 논문 패턴 분석:**
+
+```markdown
+## Results
+
+### Manipulation check
+The manipulation was successful: participants in the experimental
+condition reported significantly higher [measure] (M = 5.8, SD = 1.2)
+than those in the control condition (M = 3.2, SD = 1.4),
+t(243) = 15.42, p < .001, d = 1.97, 95% CI [1.68, 2.26].
+
+### Primary analyses
+#### Hypothesis 1: [Statement]
+Consistent with our hypothesis, [DV] was significantly higher
+in the experimental condition (M = 72.3, SD = 14.2) than in the
+control condition (M = 64.1, SD = 13.8), t(243) = 4.68, p < .001,
+d = 0.60, 95% CI [0.34, 0.85] (Fig. 2a).
+
+#### Hypothesis 2: [Statement]
+[Similar detailed reporting]
+
+### Secondary analyses
+[Pre-registered secondary analyses with same detail level]
+
+### Exploratory analyses
+Note: The following analyses were not pre-registered and should
+be interpreted as exploratory.
+
+We examined whether [variable] moderated the effect of condition
+on [DV]. A significant interaction emerged, B = 0.34, SE = 0.12,
+t(241) = 2.83, p = .005 (Fig. 3). However, this finding requires
+replication.
+
+### Robustness checks
+Results were robust to: (a) exclusion of outliers (>3 SD; n = 4),
+(b) alternative operationalization of [DV], and (c) non-parametric
+tests (Mann-Whitney U = 5842, p < .001). See Supplementary Tables
+S3-S5 for complete results.
+```
+
+---
+
+### 7.8 흔한 실수와 수정 예시
+
+**Example 1: Insufficient Reproducibility**
+
+```
+❌ Before (거부 위험):
+"Participants viewed emotional images and rated their feelings."
+
+✅ After (Nature-level):
+"Participants viewed 60 images (20 negative, 20 neutral, 20 positive)
+from the validated OASIS database (Kurdi et al., 2017), presented
+for 2000 ms each with a 500 ms inter-trial interval. After each
+image, participants rated their emotional intensity on a 7-point
+scale (1 = 'not at all' to 7 = 'extremely') with a 4000 ms response
+window. Image order was randomized within valence-blocked
+presentation, counterbalanced across participants."
+```
+
+**Example 2: Missing Control Strategy**
+
+```
+❌ Before (거부 위험):
+"We compared the treatment group to the control group."
+
+✅ After (Nature-level):
+"To isolate the effect of [active ingredient], we employed a
+2 × 2 design: (1) full treatment vs. (2) treatment minus active
+ingredient (process control), (3) active ingredient only vs.
+(4) no treatment (baseline). This design allows us to distinguish
+the specific effect of [ingredient] from demand characteristics
+and general engagement effects (see Supplementary Fig. S1 for
+design schematic)."
+```
+
+**Example 3: Overclaiming**
+
+```
+❌ Before (거부 위험):
+"Our intervention caused improvements in emotional regulation."
+
+✅ After (Nature-level):
+"Participants who received the intervention showed significantly
+better performance on the emotional regulation task compared to
+controls, consistent with—though not definitively demonstrating—
+a causal effect of the intervention. The within-session design
+limits causal inference; a randomized controlled trial with
+follow-up assessment would provide stronger evidence."
+```
+
+**Example 4: Incomplete Statistical Reporting**
+
+```
+❌ Before (거부 위험):
+"There was a significant difference between groups (p < .05)."
+
+✅ After (Nature-level):
+"The experimental group (M = 78.4, SD = 11.2, n = 64) significantly
+outperformed the control group (M = 71.2, SD = 12.8, n = 68),
+t(130) = 3.45, p < .001, d = 0.60, 95% CI [0.25, 0.94]. This
+effect remained significant after controlling for baseline
+performance, F(1, 128) = 11.23, p < .001, η²p = .081."
+```
+
+---
+
+### 7.9 AI 프롬프트 레시피: Top Journal 수준 진단
+
+**Recipe #41: Nature-Level Reproducibility Audit**
+
+```
+다음 Methods 섹션을 Nature Human Behaviour 수준으로 평가해줘:
+
+[Methods 전문]
+
+Nature Human Behaviour의 기준:
+1. 모든 실험 파라미터가 수치로 명시되어 있는가?
+2. Sample size가 a priori power analysis로 정당화되었는가?
+3. 자극/도구의 출처와 타당도가 명시되어 있는가?
+4. Randomization/counterbalancing 방법이 명확한가?
+5. Data/code availability가 명시되어 있는가?
+6. Pre-registration 정보가 있는가?
+
+각 기준에 대해:
+- 현재 상태 평가 (0-5점)
+- 누락된 정보
+- 추가해야 할 문장 (Before → After 예시)
+```
+
+**Recipe #42: Effect Size Completeness Check**
+
+```
+다음 Results 섹션의 통계 보고를 검토해줘:
+
+[Results 전문]
+
+각 통계 검정에 대해 확인:
+1. Effect size 보고됨? (Cohen's d, η², r, OR 등)
+2. 95% CI 포함됨?
+3. Exact p-value 또는 적절한 inequality?
+4. N/df 보고됨?
+5. 기술 통계 (M, SD) 포함됨?
+
+누락된 항목이 있다면:
+- 어떤 통계량이 빠졌는가?
+- 완전한 보고로 수정한 문장 제시
+```
+
+**Recipe #43: TOP Guidelines Compliance Check**
+
+```
+다음 논문 초안을 TOP Guidelines 수준으로 평가해줘:
+
+[논문 전체 또는 Methods + References]
+
+각 영역 평가 (Level 0-3):
+1. Data Citation: 데이터 출처 명시 수준
+2. Data Transparency: 데이터 공개 계획
+3. Materials Transparency: 자료/도구 공개
+4. Code Transparency: 분석 코드 공개
+5. Pre-registration: 사전등록 여부
+6. Replication: 재현 가능성
+
+현재 수준과 개선 방안:
+- 현재 Level: X
+- 목표 Level (Nature Human Behaviour 기준): 2-3
+- 업그레이드를 위해 추가할 문장/정보
+```
+
+---
+
+### 7.10 주요 저널별 Methods/Results 가이드라인 링크
+
+| 저널 | 가이드라인 URL | 특이 요구사항 |
+|------|---------------|--------------|
+| Nature | nature.com/nature/for-authors | Reporting Summary 필수 |
+| Science | science.org/content/page/instructions-authors | Structured Abstract |
+| Nature Human Behaviour | nature.com/nathumbehav/submission | I4R 재현성 검토 가능 |
+| PNAS | pnas.org/authors/submitting-your-manuscript | SI Appendix 권장 |
+| Psychological Science | psychologicalscience.org/publications | Badge system (Open Data/Materials/Pre-reg) |
+
+---
+
+## 📋 Quick Reference: Bulletproofing Checklist
+
+**Methods Section (6 Elements):**
+- [ ] Participants: N, demographics, recruitment, inclusion/exclusion
+- [ ] Materials: Sources, versions, reliability/validity
+- [ ] Procedure: Timeline, timing, verbatim instructions
+- [ ] Parameters: Exact values, units, randomization
+- [ ] Software/Equipment: Names, versions, settings
+- [ ] Data Processing: Preprocessing, exclusion criteria, transformations
+
+**Results Section (5 Checks):**
+- [ ] Complete stats: Test, df, p, effect size, 95% CI
+- [ ] All comparisons: Including non-significant results
+- [ ] Exploratory vs Confirmatory: Clearly labeled
+- [ ] Manipulation checks: Reported before main analyses
+- [ ] Robustness: Alternative analyses in Supplementary
+
+**Transparency (TOP Level 2+):**
+- [ ] Data availability statement with repository link
+- [ ] Code availability statement with repository link
+- [ ] Materials availability or explanation
+- [ ] Pre-registration link (if applicable)
+- [ ] Ethics approval number
+
+---
+
+## 8. 학생 예시 리뷰 세션: 저널 vs 내 Methods/Results 비교
+
+> **목적**: Section 7의 top-tier 저널 사례를 기준으로 삼아, 자신과 동료의 Methods/Results를 비교 분석하고 개선점을 도출합니다.
+
+### 8.1 세션 구조 (20분)
+
+**Step 1: Quick Journal Benchmark (5분)**
+- Section 7.6-7.7의 Nature/Science Methods/Results 구조 템플릿 훑어보기
+- 핵심 체크포인트 3가지 머릿속에 새기기:
+  1. Reproducibility: 파라미터가 수치로 명시되어 있는가?
+  2. Effect Size: 모든 통계량이 완전히 보고되었는가?
+  3. Transparency: Exploratory vs Confirmatory가 구분되었는가?
+
+**Step 2: 동료 예시 교환 & 비교 분석 (10분)**
+- 2-3명이 한 그룹을 형성
+- 각자 자신의 Methods OR Results 중 1개 섹션 선택
+- Section 7.8의 Before/After 예시를 참조하며 동료 글 분석
+
+**Step 3: 그룹 토론 & 개선점 도출 (5분)**
+- 저널 사례와 비교했을 때 가장 큰 gap은?
+- 즉시 개선 가능한 부분 vs 추가 데이터/분석 필요한 부분 구분
+
+---
+
+### 8.2 학생 예시 비교 분석 템플릿
+
+**저널 vs 내 Methods/Results 비교표:**
+
+```markdown
+## Methods/Results 비교 분석표
+
+### 분석 대상
+- **내 섹션**: ☐ Methods / ☐ Results
+- **동료**: _____________
+
+---
+
+### A. Reproducibility Check (Nature 기준 vs 내 글)
+
+| 요소 | Nature 예시에서 | 내 글에서 | Gap | 즉시 수정 가능? |
+|------|----------------|----------|-----|----------------|
+| Participants N + demographics | "N = 245; 142 female, 98 male..." | | | ☐ Yes / ☐ No |
+| 자극/도구 파라미터 | "presented for 2000 ms each with 500 ms ITI" | | | ☐ Yes / ☐ No |
+| Power analysis | "G*Power 3.1, d = 0.50, power = 0.80" | | | ☐ Yes / ☐ No |
+| Software versions | "R (v4.2.0), lme4 (v1.1-30)" | | | ☐ Yes / ☐ No |
+
+---
+
+### B. Statistical Reporting Check (완전성)
+
+| 통계량 | Nature 형식 | 내 보고 형식 | 누락 항목 |
+|--------|------------|-------------|----------|
+| 기술 통계 | "M = 85.3, SD = 12.1, n = 48" | | |
+| 검정 통계량 | "t(98) = 5.43, p < .001" | | |
+| Effect size | "Cohen's d = 1.12" | | |
+| 신뢰구간 | "95% CI [0.71, 1.53]" | | |
+
+---
+
+### C. Transparency Check
+
+| 항목 | Nature 기준 | 내 글 상태 |
+|------|------------|-----------|
+| Confirmatory vs Exploratory 구분 | 명확히 라벨링 | ☐ 구분됨 / ☐ 혼재 / ☐ N/A |
+| Manipulation check 보고 | 주 분석 전에 제시 | ☐ 있음 / ☐ 없음 / ☐ N/A |
+| Non-significant results | 모두 보고 | ☐ 완전 / ☐ 일부 누락 |
+| Robustness checks | Supplementary에 포함 | ☐ 있음 / ☐ 계획 중 / ☐ 없음 |
+
+---
+
+### D. 종합 진단
+
+**내 글과 Nature 수준의 Gap 점수 (0-10):**
+- Reproducibility: ___/10
+- Statistical completeness: ___/10
+- Transparency: ___/10
+- **Overall Gap**: ___/10
+
+**가장 시급한 개선 3가지:**
+1.
+2.
+3.
+
+**동료로부터 받은 추가 제안:**
+-
+```
+
+---
+
+### 8.3 그룹 토론 가이드 질문
+
+**저널 예제와 비교하며 답변:**
+
+1. **가장 놀라운 차이점**
+   - "Nature 논문은 _____ 수준까지 상세히 기술하는데, 내 글은 _____만 언급했다"
+   - 예: "ITI를 밀리초 단위로 명시" vs "자극 사이에 잠시 쉼"
+
+2. **즉시 추가할 수 있는 정보**
+   - 내가 **알고 있지만 쓰지 않은** 정보는?
+   - 예: 사용한 R 패키지 버전, 정확한 시간 파라미터
+
+3. **추가 작업이 필요한 정보**
+   - 내가 **아직 없어서 생성해야 하는** 정보는?
+   - 예: Power analysis (아직 안 돌림), Effect size 계산
+
+4. **동료의 글에서 배운 점**
+   - 동료가 더 잘 기술한 부분은?
+   - 내 글에 적용할 아이디어는?
+
+---
+
+### 8.4 AI 프롬프트: 저널 수준 Gap 분석
+
+**Recipe #44: Journal-Level Gap Analyzer**
+
+```
+다음 두 텍스트를 비교해줘:
+
+[Reference: Nature Human Behaviour 수준 Methods 예시]
+(Section 7.6의 예시 사용)
+
+[내 Methods]:
+(내 Methods 전문)
+
+비교 분석:
+1. **Reproducibility Gap**
+   - 내 글에서 누락된 수치/파라미터 5가지
+   - 각각을 Nature 수준으로 보강하는 문장
+
+2. **Structure Gap**
+   - Nature 구조와 내 구조의 차이점
+   - 재배열 제안
+
+3. **Detail Level Gap**
+   - Nature가 명시하지만 내가 생략한 정보 유형
+   - 예: "Nature는 IRB 번호까지 명시하지만 나는 '승인 받음'만 기재"
+
+4. **Priority Ranking**
+   - 가장 시급히 수정해야 할 gap (Critical/Major/Minor)
+   - 각 gap의 Before → After 예시
+
+출력 형식: 비교표 + 수정 문장 제안
+```
+
+**Recipe #45: Peer Comparison Facilitator**
+
+```
+다음 두 학생의 Methods 섹션을 비교해줘:
+
+[학생 A - 나]:
+(내 Methods)
+
+[학생 B - 동료]:
+(동료 Methods)
+
+비교 분석:
+1. **각각의 강점** (서로 배울 점)
+   - 학생 A가 더 잘한 부분:
+   - 학생 B가 더 잘한 부분:
+
+2. **공통 약점** (둘 다 개선 필요)
+   - Nature 기준 대비 둘 다 부족한 영역:
+
+3. **Best of Both** 통합 버전
+   - 두 글의 강점을 합친 이상적 Methods outline
+
+4. **상호 제안**
+   - A가 B에게 제안할 개선점:
+   - B가 A에게 제안할 개선점:
+```
+
+---
+
+### 8.5 실습 후 전체 공유 (선택, 5분)
+
+**클래스 전체 토론 (시간 여유 시):**
+
+- **가장 큰 깨달음**: "저널 예제를 보고 가장 놀란 점은?"
+- **Best Practice 공유**: "동료 글에서 발견한 좋은 표현/구조는?"
+- **공통 Gap 발견**: "우리 반 전체적으로 부족한 영역은?"
+
+**교수 정리:**
+- 가장 흔히 발견되는 gap 패턴 피드백
+- 다음 주 과제에서 특히 주의할 점
+- 추가 참고 자료 안내
+
+---
+
+### 8.6 세션 Takeaways
+
+**이 세션 후 학생들이 얻어가야 할 것:**
+
+1. **구체적 Gap 인식**: "내 Methods/Results가 Nature 수준과 어디서 차이 나는지 정확히 안다"
+
+2. **즉시 실행 리스트**: "수업 끝나고 바로 수정할 3가지가 있다"
+
+3. **동료 학습**: "다른 학생의 글에서 좋은 표현을 배웠다"
+
+4. **현실적 목표 설정**: "완벽하지 않아도, 어느 수준까지는 도달할 수 있다"
+
+**핵심 메시지:**
+
+> "Top-tier 저널 논문은 특별한 재능이 아니라, **세부 사항에 대한 집착과 투명한 보고**에서 나옵니다.
+> 오늘 저널 예제와 동료 예시를 비교하며, 그 gap을 인식하는 것이 첫 번째 단계입니다."
