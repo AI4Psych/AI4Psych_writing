@@ -38,3 +38,29 @@ Temporary Items
 
 # Zip files
 *.zip
+
+# Environment variables and secrets
+.env
+.env.local
+.env.*.local
+*.key
+*_token.txt
+*_secret.txt
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+.pytest_cache/
+
+# Node.js (if used)
+node_modules/
+npm-debug.log*
+
+# API keys and tokens (safety net)
+**/secret_*
+**/token_*
+**/*_key
+**/*_secret
