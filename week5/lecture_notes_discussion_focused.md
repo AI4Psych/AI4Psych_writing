@@ -49,6 +49,26 @@ Discussion 섹션의 핵심은 **[데이터(Fact)]와 [주장(Claim)] 사이의 
 
 **💡 핵심 통찰**: Nature/Science는 **Level 3 (Suggest)를 얼마나 세련되게 던지느냐**로 임팩트가 결정됩니다!
 
+### 1.1B Nature Editorial Standards: Results vs Discussion 경계
+
+**Nature 에디터 철학 (2024-2025 최신 가이드라인)**:
+- **Results**: "Simply state what you found, but do not interpret" ([Nature Guidelines](https://www.nature.com/nature-portfolio/for-authors/write))
+- **Discussion**: "Extended analysis rather than simple repetition" with **synthetic evaluation**
+
+**Critical Boundary Rules**:
+```
+Results Section = Pure Level 1 Territory
+- Past tense for new data
+- Present tense for figures/tables
+- No interpretation whatsoever
+- "Data show..." ONLY
+
+Discussion Section = Strategic Level 2→3 Territory
+- "These patterns indicate..." (Level 2)
+- "Our findings suggest..." (Level 3)
+- Contextual evaluation + literature comparison
+```
+
 ### 1.2 3-Level Claim Hierarchy 전략
 
 | Level | 동사 | 역할 | 예시 (fMRI 연구) |
@@ -128,7 +148,31 @@ Stage 4: Broader Impact (10%)
 
 ### 2.2 Discussion 성공 패턴 실례 분석
 
-#### Journal of Neuroscience OSAS 논문 Discussion 분석
+#### Nature Paper Results/Discussion 경계 분석
+
+**실전 예시**: Nature 논문의 Results vs Discussion 섹션 비교
+
+**🔍 Nature Results Section (Level 1 Only)**:
+```
+❌ 일반적 실수: "Results suggest that cortisol increases stress response"
+✅ Nature Standard: "Cortisol levels increased 300% following acute stressor
+(mean ± SEM: 45.2 ± 3.8 vs 15.1 ± 2.1 ng/mL; p < 0.001, n = 24)"
+```
+
+**🧠 Nature Discussion Section (Strategic Level 2→3)**:
+```
+✅ Level 2 (Bridge): "This cortisol elevation pattern indicates
+hypothalamic-pituitary-adrenal axis activation consistent with acute stress responses"
+
+✅ Level 3 (Impact): "These findings suggest that brief psychological stressors
+engage the same neuroendocrine pathways previously identified in chronic stress conditions,
+pointing to shared regulatory mechanisms across stress timescales and potentially
+informing therapeutic intervention timing"
+```
+
+**Nature Editorial Insight**: Discussion에서 Level 3 boldness + epistemic humility의 완벽한 균형
+
+#### Journal of Neuroscience OSAS 논문 Discussion 분석 (비교 참고)
 
 **논문 예시**: "Cognitive deficits in obstructive sleep apnea: Insights from neuroimaging" (Journal of Neuroscience, 2023)
 
@@ -183,31 +227,48 @@ to basic attention processes."
 
 ## 3. Workshop Session (70분)
 
-### Stage 1: Claim Hierarchy Calibration (15분)
+### Stage 1: Nature Standards Reality Check (15분)
 
-**개별 작업**: 3-Level Hierarchy로 주장 강도 조정
+**개별 작업**: Nature 에디터 관점에서 Results vs Discussion 경계 점검
 
-**먼저 할 일**: 본인 Discussion 초안에서 동사들을 체크
-- "show" "demonstrate" → Level 1 확인: 정말 데이터가 이를 직접 보여주나?
-- "suggest" "imply" → Level 3 확인: 추론 거리가 적절한가?
+**먼저 할 일**: 본인 논문에서 Results와 Discussion 경계 audit
+- Results에 해석이 들어가 있지 않나? (Level 1만 있어야 함)
+- Discussion이 단순 요약에 그치고 있지 않나? (Level 2→3 progression 필요)
+- 동사 사용이 적절한가? "show" vs "suggest" 구분
 
-#### 프롬프트 1: Claim Strength Audit
+**Nature Editorial Checklist**:
+□ Results = Past tense + Pure facts + No interpretation
+□ Discussion = Extended analysis + Literature comparison + Strategic insights
+
+#### 프롬프트 1: Nature Editor Audit
 ```
-내 Discussion 초안의 모든 claim들을 3-Level Hierarchy로 분석해줘:
+내 논문을 Nature 에디터가 보는 관점에서 Results/Discussion 경계와 claim hierarchy를 분석해줘:
 
-[Discussion 초안 전문]
+**Results 섹션**: [내 Results 섹션 전문]
+**Discussion 섹션**: [내 Discussion 섹션 전문]
 
-각 주요 statement에 대해:
-1. **현재 사용한 동사와 claim level 식별**
-2. **데이터-주장 매칭도 평가** (overclaiming 위험도)
-3. **심리학/뇌과학 특성 고려한 조정 제안**
+Nature Editorial Standards로 평가:
 
-특히 이런 위험 패턴 체크해줘:
-❌ "Results show that participants felt..." (느낌은 직접 측정 안 함)
-❌ "fMRI data demonstrate cognitive ability..." (뇌활성=인지능력 직결 위험)
-❌ "Our study proves the mechanism..." (prove는 너무 강함)
+1. **Results 섹션 Audit**:
+   - Level 1 (Show/Demonstrate)만 사용했는가?
+   - 해석이나 speculation이 들어가지 않았는가?
+   - Past tense for new data, present for figures 규칙 준수?
+   - "Data suggest..." 같은 interpretation 없는가?
 
-각 문장을 Level 1 (safe) + Level 3 (impactful) 조합으로 rewrite해줘.
+2. **Discussion 섹션 Audit**:
+   - Extended analysis vs simple repetition인가?
+   - Level 2→3 strategic progression이 있는가?
+   - Literature comparison과 contextual evaluation 포함?
+   - Synthetic insights that justify Nature publication?
+
+3. **Boundary Violations 체크**:
+   - Results에서 "suggest, indicate, imply" 사용한 곳
+   - Discussion에서 단순 "show, demonstrate" 반복한 곳
+
+4. **Nature-Level Rewrite**:
+   각 violation을 Nature standards로 수정해줘.
+
+Nature 에디터가 "이거 게재할 만하다"고 할 수준으로 평가해줘.
 ```
 
 #### 프롬프트 2: 핵심 발견 정리
@@ -311,30 +372,75 @@ Nature/Science 수준의 broad significance statement 3개를 만들어줘.
 5가지 한계점을 이런 방식으로 전환해줘.
 ```
 
-### Stage 4: 동료 Discussion 크로스 리뷰 (25분)
+### Stage 4: Nature Paper 실전 분석 (15분)
 
-**페어 작업**: Structured peer review (12분 × 2)
+**개별 작업**: 실제 Nature 논문으로 Results/Discussion 경계 학습
 
-#### Discussion 피어 리뷰 체크리스트
-
-**구조 평가** (각 항목 1-5점):
-- [ ] Key findings가 단순 요약이 아닌 해석인가?
-- [ ] Theoretical implications가 구체적이고 설득력 있는가?
-- [ ] Limitations이 방어적이지 않고 건설적인가?
-- [ ] Broader impact가 과장 없이 의미 있는가?
-
-**내용 평가**:
-- [ ] "So what?" 질문에 각 문단이 답하는가?
-- [ ] Cross-disciplinary 연결점이 있는가?
-- [ ] 새로운 연구 질문을 제기하는가?
-- [ ] Evidence-conclusion 매칭이 적절한가?
-
-**피드백 양식**:
+#### 프롬프트: Nature Paper Dissection
 ```
-가장 강한 점: [구체적으로]
-개선 필요한 점: [2-3가지]
-추가 제안: [cross-disciplinary 연결, theoretical depth 등]
-Nature/Science 게재 가능성: __/10점 (이유와 함께)
+다음 Nature 논문의 Results와 Discussion 섹션을 분석해줘:
+
+[제공된 Nature 논문 Results/Discussion 발췌문]
+
+다음 관점에서 분석:
+
+1. **Results 섹션 Excellence Analysis**:
+   - Pure Level 1 statements만 사용했는가?
+   - 어떤 방식으로 데이터를 객관적으로 제시하는가?
+   - 시제 사용 (past/present)이 정확한가?
+   - 해석 유혹을 어떻게 피했는가?
+
+2. **Discussion 섹션 Strategy Analysis**:
+   - Level 2→3 progression 패턴은?
+   - Literature와 어떻게 연결하는가?
+   - Broader impact를 어떻게 제시하는가?
+   - Limitations를 future opportunities로 어떻게 전환하는가?
+
+3. **Nature Editorial Magic**:
+   - 왜 Nature가 이 논문을 게재했을까?
+   - Discussion의 어떤 부분이 "Nature 수준"인가?
+   - 학생 논문과 가장 큰 차이점은?
+
+4. **Learning Points**:
+   내 Discussion에 바로 적용할 수 있는 구체적 전략 3가지
+```
+
+### Stage 5: 동료 Discussion 크로스 리뷰 (15분)
+
+**페어 작업**: Nature standards 기준 피어 리뷰 (7분 × 2)
+
+#### Nature Standards 피어 리뷰 체크리스트
+
+**Nature Editorial Criteria** (각 항목 1-5점):
+
+**Boundary Compliance**:
+- [ ] Results/Discussion 경계가 명확한가? (Results = Level 1 only)
+- [ ] Discussion이 "extended analysis"인가? (단순 요약 아님)
+- [ ] Temporal precision: Past tense (new data), Present (established)?
+
+**Claim Hierarchy Excellence**:
+- [ ] Level 1 Defense: 데이터가 주장을 완전히 뒷받침하는가?
+- [ ] Level 3 Attack: Strategic insights that justify Nature publication?
+- [ ] Inference gap 관리가 적절한가? (overclaiming 없음)
+
+**Nature-Level Impact**:
+- [ ] Synthetic analysis가 있는가? (new + known data integration)
+- [ ] Cross-disciplinary significance가 명확한가?
+- [ ] Editorial "wow factor"가 있는가?
+
+**Professional Restraint**:
+- [ ] "Remarkably", "interestingly" 같은 persuasion language 없는가?
+- [ ] Epistemic humility + boldness 균형이 적절한가?
+- [ ] Literature comparison이 critical하고 constructive한가?
+
+**Nature Editor 피드백 양식**:
+```
+**Nature Publication Readiness**: __/5
+1. Boundary violations: [Results의 해석, Discussion의 단순반복]
+2. Strongest Nature-level insight: [Level 3에서 가장 임팩트 있는 부분]
+3. Editorial concerns: [overclaiming, underclaiming, missing context]
+4. Rewrite priority: [가장 먼저 수정할 부분]
+5. Nature impact potential: [왜 Nature가 관심을 가질까?]
 ```
 
 ### Stage 5: Recipe Library 공유 (5분)
@@ -418,9 +524,60 @@ Nature 편집자가 "이거 흥미롭네!"라고 할 만한 Level 3 statements�
 ```
 **결과 평가 기준**: Level 1 evidence와 논리적으로 연결되면서도 흥미로운 Level 3 insights를 제공하는가?
 
-### 4.2 구조 설계 레시피
+### 4.2 Nature Editorial Standards 레시피
 
-#### 레시피 D3: Discussion Blueprint Generator
+#### 레시피 D3: Nature Editor Simulator
+**목적**: Nature 에디터 관점에서 논문의 Results/Discussion 품질을 종합 평가
+**프롬프트**:
+```
+당신은 Nature 저널의 senior editor입니다. 다음 논문을 editorial review 해주세요:
+
+**Manuscript Sections**:
+Results: [Results 섹션 전문]
+Discussion: [Discussion 섹션 전문]
+Field: [research field - psychology/neuroscience/etc]
+
+**Editorial Review Criteria**:
+
+1. **Boundary Compliance Assessment**:
+   - Results 섹션이 pure factual reporting인가?
+   - Discussion이 interpretive analysis인가?
+   - "Simply state what you found, but do not interpret" 원칙 준수?
+
+2. **Publication Impact Evaluation**:
+   - 이 연구가 Nature 독자들에게 왜 중요한가?
+   - Cross-disciplinary significance는?
+   - Field-changing potential이 있는가?
+
+3. **Scientific Rigor Check**:
+   - Overclaiming 위험 요소는?
+   - Evidence-conclusion gap이 적절한가?
+   - Epistemic humility vs boldness 균형은?
+
+4. **Writing Excellence Standards**:
+   - "Extended analysis rather than simple repetition"?
+   - Synthetic evaluation of new+known data?
+   - Professional restraint (no "remarkably", "interestingly")?
+
+5. **Editorial Decision Simulation**:
+   □ **Accept**: 게재 가치 충분 (이유 3가지)
+   □ **Major Revision**: 수정 후 재검토 (필수 수정사항)
+   □ **Reject**: Nature 기준 미달 (구체적 부족 요소)
+
+**Editor's Comments**:
+- Manuscript's strongest contribution
+- Critical weaknesses to address
+- Suggestions for Nature-level impact enhancement
+- Comparison to typical submissions in this field
+
+Nature의 "wow factor" 관점에서 평가하고,
+구체적이고 actionable한 editorial feedback을 제공해주세요.
+```
+**결과 평가 기준**: Nature 에디터의 실제 평가 프로세스와 유사하며, 구체적 개선방안을 제시하는가?
+
+### 4.3 구조 설계 레시피
+
+#### 레시피 D4: Discussion Blueprint Generator
 **목적**: 연구 결과를 4단계 Discussion 구조로 변환
 **프롬프트**:
 ```
